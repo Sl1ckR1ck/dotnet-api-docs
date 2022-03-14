@@ -1394,7 +1394,7 @@ The type `T` can be any of the following numeric types:
       </Docs>
     </Member>
     <Member MemberName="op_Explicit">
-      <MemberSignature Language="C#" Value="public static explicit operator System.Numerics.Vector&lt;IntPtr&gt; (System.Numerics.Vector&lt;T&gt; value);" />
+      <MemberSignature Language="C#" Value="public static explicit operator System.Numerics.Vector&lt;nint&gt; (System.Numerics.Vector&lt;T&gt; value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Numerics.Vector`1&lt;native int&gt; op_Explicit(valuetype System.Numerics.Vector`1&lt;!T&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector`1.op_Explicit(System.Numerics.Vector{`0})~System.Numerics.Vector{System.IntPtr}" />
       <MemberSignature Language="VB.NET" Value="Public Shared Narrowing Operator CType (value As Vector(Of T)) As Vector(Of IntPtr)" />
@@ -1683,7 +1683,7 @@ The type `T` can be any of the following numeric types:
       </Docs>
     </Member>
     <Member MemberName="op_Explicit">
-      <MemberSignature Language="C#" Value="public static explicit operator System.Numerics.Vector&lt;UIntPtr&gt; (System.Numerics.Vector&lt;T&gt; value);" />
+      <MemberSignature Language="C#" Value="public static explicit operator System.Numerics.Vector&lt;nuint&gt; (System.Numerics.Vector&lt;T&gt; value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.Numerics.Vector`1&lt;native unsigned int&gt; op_Explicit(valuetype System.Numerics.Vector`1&lt;!T&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector`1.op_Explicit(System.Numerics.Vector{`0})~System.Numerics.Vector{System.UIntPtr}" />
       <MemberSignature Language="VB.NET" Value="Public Shared Narrowing Operator CType (value As Vector(Of T)) As Vector(Of UIntPtr)" />
