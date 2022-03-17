@@ -1410,6 +1410,12 @@ The type `T` can be any of the following numeric types:
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Numerics.Vector&lt;System.IntPtr&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.NativeInteger]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NativeInteger&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <Parameters>
         <Parameter Name="value" Type="System.Numerics.Vector&lt;T&gt;" Index="0" FrameworkAlternate="net-6.0" />
@@ -1705,6 +1711,12 @@ The type `T` can be any of the following numeric types:
       </Attributes>
       <ReturnValue>
         <ReturnType>System.Numerics.Vector&lt;System.UIntPtr&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.NativeInteger]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NativeInteger&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <Parameters>
         <Parameter Name="value" Type="System.Numerics.Vector&lt;T&gt;" Index="0" FrameworkAlternate="net-6.0" />

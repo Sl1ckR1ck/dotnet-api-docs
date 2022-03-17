@@ -70,7 +70,14 @@
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="value" Type="System.UIntPtr" />
+        <Parameter Name="value" Type="System.UIntPtr">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.NativeInteger]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NativeInteger&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="value">The integer value.</param>
@@ -198,6 +205,12 @@
         <AssemblyName>System.Runtime.InteropServices</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.NativeInteger]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NativeInteger&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.UIntPtr</ReturnType>
       </ReturnValue>

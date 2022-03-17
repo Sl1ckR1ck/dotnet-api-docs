@@ -39,8 +39,22 @@
         <ReturnType>System.Void*</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="byteCount" Type="System.UIntPtr" />
-        <Parameter Name="alignment" Type="System.UIntPtr" />
+        <Parameter Name="byteCount" Type="System.UIntPtr">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.NativeInteger]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NativeInteger&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="alignment" Type="System.UIntPtr">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.NativeInteger]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NativeInteger&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="byteCount">The size, in bytes, of the block to allocate.</param>
@@ -130,8 +144,22 @@ This method is a thin wrapper over the C `free` API or a platform dependent alig
       </ReturnValue>
       <Parameters>
         <Parameter Name="ptr" Type="System.Void*" />
-        <Parameter Name="byteCount" Type="System.UIntPtr" />
-        <Parameter Name="alignment" Type="System.UIntPtr" />
+        <Parameter Name="byteCount" Type="System.UIntPtr">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.NativeInteger]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NativeInteger&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="alignment" Type="System.UIntPtr">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.NativeInteger]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NativeInteger&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="ptr">The previously allocated block of memory.</param>
@@ -182,7 +210,14 @@ This method is not compatible with <xref:System.Runtime.InteropServices.NativeMe
         <ReturnType>System.Void*</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="byteCount" Type="System.UIntPtr" />
+        <Parameter Name="byteCount" Type="System.UIntPtr">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.NativeInteger]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NativeInteger&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="byteCount">The size, in bytes, of the block to allocate.</param>
@@ -225,8 +260,22 @@ This method is a thin wrapper over the C `malloc` API.
         <ReturnType>System.Void*</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="elementCount" Type="System.UIntPtr" />
-        <Parameter Name="elementSize" Type="System.UIntPtr" />
+        <Parameter Name="elementCount" Type="System.UIntPtr">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.NativeInteger]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NativeInteger&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="elementSize" Type="System.UIntPtr">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.NativeInteger]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NativeInteger&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="elementCount">The count, in elements, of the block to allocate.</param>
@@ -270,7 +319,14 @@ This method is a thin wrapper over the C `malloc` API.
         <ReturnType>System.Void*</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="byteCount" Type="System.UIntPtr" />
+        <Parameter Name="byteCount" Type="System.UIntPtr">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.NativeInteger]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NativeInteger&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="byteCount">The size, in bytes, of the block to allocate.</param>
@@ -313,8 +369,22 @@ This method is a thin wrapper over the C `calloc` API.
         <ReturnType>System.Void*</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="elementCount" Type="System.UIntPtr" />
-        <Parameter Name="elementSize" Type="System.UIntPtr" />
+        <Parameter Name="elementCount" Type="System.UIntPtr">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.NativeInteger]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NativeInteger&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+        <Parameter Name="elementSize" Type="System.UIntPtr">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.NativeInteger]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NativeInteger&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="elementCount">The count, in elements, of the block to allocate.</param>
@@ -400,7 +470,14 @@ This method is a thin wrapper over the C `free` API.
       </ReturnValue>
       <Parameters>
         <Parameter Name="ptr" Type="System.Void*" />
-        <Parameter Name="byteCount" Type="System.UIntPtr" />
+        <Parameter Name="byteCount" Type="System.UIntPtr">
+          <Attributes>
+            <Attribute>
+              <AttributeName Language="C#">[System.Runtime.CompilerServices.NativeInteger]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NativeInteger&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="ptr">The previously allocated block of memory.</param>

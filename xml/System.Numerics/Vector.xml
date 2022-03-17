@@ -511,6 +511,12 @@
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Numerics.Vector&lt;System.IntPtr&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.NativeInteger]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NativeInteger&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T">
@@ -557,6 +563,12 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>System.Numerics.Vector&lt;System.UIntPtr&gt;</ReturnType>
+        <Attributes>
+          <Attribute>
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.NativeInteger]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NativeInteger&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T">
