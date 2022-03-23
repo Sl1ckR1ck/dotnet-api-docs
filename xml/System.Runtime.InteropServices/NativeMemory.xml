@@ -8,6 +8,7 @@
   <AssemblyInfo>
     <AssemblyName>System.Runtime.InteropServices</AssemblyName>
     <AssemblyVersion>6.0.0.0</AssemblyVersion>
+    <AssemblyVersion>7.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -28,6 +29,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Runtime.InteropServices</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -41,7 +43,7 @@
       <Parameters>
         <Parameter Name="byteCount" Type="System.UIntPtr">
           <Attributes>
-            <Attribute>
+            <Attribute FrameworkAlternate="net-6.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.NativeInteger]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NativeInteger&gt;]</AttributeName>
             </Attribute>
@@ -49,7 +51,7 @@
         </Parameter>
         <Parameter Name="alignment" Type="System.UIntPtr">
           <Attributes>
-            <Attribute>
+            <Attribute FrameworkAlternate="net-6.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.NativeInteger]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NativeInteger&gt;]</AttributeName>
             </Attribute>
@@ -91,6 +93,7 @@ This method is not compatible with <xref:System.Runtime.InteropServices.NativeMe
       <AssemblyInfo>
         <AssemblyName>System.Runtime.InteropServices</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -132,6 +135,7 @@ This method is a thin wrapper over the C `free` API or a platform dependent alig
       <AssemblyInfo>
         <AssemblyName>System.Runtime.InteropServices</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -146,7 +150,7 @@ This method is a thin wrapper over the C `free` API or a platform dependent alig
         <Parameter Name="ptr" Type="System.Void*" />
         <Parameter Name="byteCount" Type="System.UIntPtr">
           <Attributes>
-            <Attribute>
+            <Attribute FrameworkAlternate="net-6.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.NativeInteger]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NativeInteger&gt;]</AttributeName>
             </Attribute>
@@ -154,7 +158,7 @@ This method is a thin wrapper over the C `free` API or a platform dependent alig
         </Parameter>
         <Parameter Name="alignment" Type="System.UIntPtr">
           <Attributes>
-            <Attribute>
+            <Attribute FrameworkAlternate="net-6.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.NativeInteger]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NativeInteger&gt;]</AttributeName>
             </Attribute>
@@ -199,6 +203,7 @@ This method is not compatible with <xref:System.Runtime.InteropServices.NativeMe
       <AssemblyInfo>
         <AssemblyName>System.Runtime.InteropServices</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -212,7 +217,7 @@ This method is not compatible with <xref:System.Runtime.InteropServices.NativeMe
       <Parameters>
         <Parameter Name="byteCount" Type="System.UIntPtr">
           <Attributes>
-            <Attribute>
+            <Attribute FrameworkAlternate="net-6.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.NativeInteger]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NativeInteger&gt;]</AttributeName>
             </Attribute>
@@ -249,6 +254,7 @@ This method is a thin wrapper over the C `malloc` API.
       <AssemblyInfo>
         <AssemblyName>System.Runtime.InteropServices</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -262,7 +268,7 @@ This method is a thin wrapper over the C `malloc` API.
       <Parameters>
         <Parameter Name="elementCount" Type="System.UIntPtr">
           <Attributes>
-            <Attribute>
+            <Attribute FrameworkAlternate="net-6.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.NativeInteger]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NativeInteger&gt;]</AttributeName>
             </Attribute>
@@ -270,7 +276,7 @@ This method is a thin wrapper over the C `malloc` API.
         </Parameter>
         <Parameter Name="elementSize" Type="System.UIntPtr">
           <Attributes>
-            <Attribute>
+            <Attribute FrameworkAlternate="net-6.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.NativeInteger]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NativeInteger&gt;]</AttributeName>
             </Attribute>
@@ -308,6 +314,7 @@ This method is a thin wrapper over the C `malloc` API.
       <AssemblyInfo>
         <AssemblyName>System.Runtime.InteropServices</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -321,7 +328,7 @@ This method is a thin wrapper over the C `malloc` API.
       <Parameters>
         <Parameter Name="byteCount" Type="System.UIntPtr">
           <Attributes>
-            <Attribute>
+            <Attribute FrameworkAlternate="net-6.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.NativeInteger]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NativeInteger&gt;]</AttributeName>
             </Attribute>
@@ -358,6 +365,7 @@ This method is a thin wrapper over the C `calloc` API.
       <AssemblyInfo>
         <AssemblyName>System.Runtime.InteropServices</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -371,7 +379,7 @@ This method is a thin wrapper over the C `calloc` API.
       <Parameters>
         <Parameter Name="elementCount" Type="System.UIntPtr">
           <Attributes>
-            <Attribute>
+            <Attribute FrameworkAlternate="net-6.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.NativeInteger]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NativeInteger&gt;]</AttributeName>
             </Attribute>
@@ -379,7 +387,7 @@ This method is a thin wrapper over the C `calloc` API.
         </Parameter>
         <Parameter Name="elementSize" Type="System.UIntPtr">
           <Attributes>
-            <Attribute>
+            <Attribute FrameworkAlternate="net-6.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.NativeInteger]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NativeInteger&gt;]</AttributeName>
             </Attribute>
@@ -417,6 +425,7 @@ This method is a thin wrapper over the C `calloc` API.
       <AssemblyInfo>
         <AssemblyName>System.Runtime.InteropServices</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -458,6 +467,7 @@ This method is a thin wrapper over the C `free` API.
       <AssemblyInfo>
         <AssemblyName>System.Runtime.InteropServices</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -472,7 +482,7 @@ This method is a thin wrapper over the C `free` API.
         <Parameter Name="ptr" Type="System.Void*" />
         <Parameter Name="byteCount" Type="System.UIntPtr">
           <Attributes>
-            <Attribute>
+            <Attribute FrameworkAlternate="net-6.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.NativeInteger]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NativeInteger&gt;]</AttributeName>
             </Attribute>
